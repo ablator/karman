@@ -29,14 +29,14 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/ablator/karman',
+    url='http://ablator.io/',
 
     # Author details
     author='Daniel Jilg',
     author_email='daniel@breakthesystem.org',
 
     # Choose your license
-    license='MIT',
+    license='BSD',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
