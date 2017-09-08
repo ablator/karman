@@ -27,7 +27,7 @@ the ablator web interface::
     ablator_client = karman.Karman(base_url='http://ablator.space/')
     availability = ablator_client.which(username, functionality_id)
 
-     # this will return one of the following:
+    # this will return one of the following:
     # availability == "breakthesystem.test-app.test-func.on"
     # availability == None
 
