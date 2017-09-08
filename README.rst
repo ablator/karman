@@ -1,9 +1,12 @@
 Ablator Python Client
 =====================
 
-This is *karman* a Python Client for the `ablator project`_.
+This is *karman* -- a Python Client for the `ablator project`_.
 
 .. _ablator project: https://github.com/ablator/ablator/
+
+Using karman, you can connect to a hosted or self-hosted instance of ablator,
+and check which functionalities to present to your user.
 
 Installation
 ~~~~~~~~~~~~
