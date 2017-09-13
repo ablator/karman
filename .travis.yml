@@ -5,3 +5,5 @@ install:
 before_script: cd karman
 script:
   - "flake8"
+notifications:
+  email: false
