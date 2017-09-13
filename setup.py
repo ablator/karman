@@ -9,9 +9,11 @@ from setuptools import setup, find_packages
 # To use a consistent encoding
 from codecs import open
 from os import path
-from karman.version import __version__
 
 here = path.abspath(path.dirname(__file__))
+
+version_file = open(path.join(here, 'karman/version.py'), 'r')
+version = version_file.read()[15:-2]
 
 # Get the long description from the README file
 with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
@@ -23,7 +25,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version=__version__,
+    version=version,
 
     description='A client for the ablator feature-switching server',
     long_description=long_description,
